@@ -4,6 +4,8 @@ import MediaContainer from './MediaContainer'
 import Communication from '../components/Communication'
 import store from '../store'
 import { connect } from 'react-redux'
+
+//Here is the Class component
 class CommunicationContainer extends React.Component {
   constructor(props) {
     super(props);
